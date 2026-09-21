@@ -1,19 +1,22 @@
-Eureka_Website_Automation_Testing_Case_4OverviewThis repository contains the Case_4 automation script. It is developed using Python and Selenium to automate Access_Typed_Open book and book chapter search and download actions on the Eureka website. The script was developed in PyCharm IDE.Test Case Summary:This positive test case verifies that a user can successfully access and download assigned Access_Typed_Open books or Access_Typed_Open book chapters from the Eureka Website. The user logs in with valid credentials and searches for the required Access Book or Book Chapter by entering its title or keyword in the Search field. After clicking the Search button, the system displays the relevant book or chapter. If the selected content is assigned by the admin, the user is able to download the permitted content, either specific chapters or the complete book. The test case also verifies a chapter download using the right-click functionality, where the chapter link opens in a new tab/window and the user downloads the chapter from the newly opened page.   
+Eureka_Website_Automation_Testing_Case_4
+
+Overview
+
+This repository contains the Case_4 automation script. It is developed using Python and Selenium to automate Access_Typed_Open book and book chapter search and download actions on the Eureka website. The script was developed in PyCharm IDE.
+
+Test Case Summary:
+
+This positive test case verifies that a user can successfully access and download assigned Access_Typed_Open books or Access_Typed_Open book chapters from the Eureka Website. The user logs in with valid credentials and searches for the required book or book chapter by entering its title or keyword in the Search field. After clicking the Search button, the system displays the relevant book or chapter. If the selected content is assigned by the admin, the user is able to download the permitted content, either specific chapters or the complete book. The test case also verifies a chapter download using the right-click functionality, where the chapter link opens in a new tab/window and the user downloads the chapter from the newly opened page.
 
 
 Folder Structure
 
 Eureka_Website_Automation_Testing_Case_4/
 
-
-
-![Uploading image.png…]()
-
+<img width="590" height="345" alt="image" src="https://github.com/user-attachments/assets/9c89306e-8ca6-462a-9f51-2a6033510f05" />
 
 
 Purpose:
-
-To securely store login credentials and the base URL.
 
 Install dotenv library:
 
@@ -48,3 +51,4 @@ pip install pyinstaller
 Command to Create Executable:
 
 pyinstaller --onefile --collect-all selenium Case_2.py
+](https://github.com/nidamaqbool12/Eureka_Website_Automation_Testing_Case_2)
